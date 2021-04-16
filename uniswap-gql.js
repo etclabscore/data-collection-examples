@@ -7,7 +7,7 @@ const { createHttpLink } = require('apollo-link-http')
 const gql = require('graphql-tag')
 
 // note: these constants are specfic to uniswap. if repurposing this for a
-// uniswap fork, make sure top update these accordingly.
+// uniswap fork, make sure to update these accordingly.
 const FACTORY_ADDRESS = '0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f';
 const BUNDLE_ID = '1';
 
